@@ -29,22 +29,19 @@ Generate a link for YouTube Together
 ```py
 from disnake.ext import commands
 from disnake_together import DisnakeTogether
-
-client = commands.Bot(command_prefix = "*")
-togetherControl = DisnakeTogether(client)
-
+    
+client = commands.Bot(command_prefix="*")
 
 @client.command()
-async def youtubeTogether(self, ctx):
-    togetherControl = DiscordTogether(self.client)
+async def youtube_together(self, ctx):
+    together_control = DiscordTogether(self.client)
     # To check if the user is in a vc
     try:
         vc = ctx.author.voice.channel.id
-
-    except:
+    except Exception as _:
         await ctx.channel.send("You are not in a VC, please join one and then use the command")
     # Get invite link
-    link = await togetherControl.create_link(vc, 'youtube')
+    link = await together_control.create_link(vc, 'youtube')
     await ctx.send(f"Click the link 👇\n{link}")
 
 ```
