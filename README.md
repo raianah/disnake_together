@@ -50,3 +50,7 @@ async def youtubeTogether(self, ctx):
 ```
 
 You can replace `youtube` with the other interactions i.e betrayal, chess, fishing, poker
+
+### Contributing <a name = "contributing"></a>
+- [LamerGamerYT](https://github.com/lamergameryt)
+- [Bxllistic](https://github.com/apurv-r)
