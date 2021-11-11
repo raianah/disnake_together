@@ -14,7 +14,8 @@ defaultApplications = {  # Credits to RemyK888
     'letter-tile': '879863686565621790',
     'word-snack': '879863976006127627',
     'doodle-crew': '878067389634314250',
-    'spell-cast': '852509694341283871'
+    'spell-cast': '852509694341283871',
+    'checkers': '807655087643557919'
 }
 
 
