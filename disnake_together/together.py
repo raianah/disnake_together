@@ -15,7 +15,8 @@ defaultApplications = {  # Credits to RemyK888
     'word-snack': '879863976006127627',
     'doodle-crew': '878067389634314250',
     'spell-cast': '852509694341283871',
-    'checkers': '807655087643557919'
+    'checkers': '807655087643557919',
+    'wtogether': '880218394199220334'
 }
 
 
