@@ -30,5 +30,4 @@ setup(
     keywords=['disnake_together', 'disnake', 'disnake-vc-interactions'],
     packages=find_packages(),
     install_requires=['aiohttp>=3.7.2']
-    python_requires='>=3.6.0
 )
