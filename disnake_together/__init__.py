@@ -6,8 +6,8 @@ An unofficial module that allows the use of the Discord's BETA feature, Party Ga
 """
 
 __name__ = "disnake_together"
-__author__ = "awesomehet"
-__version__ = "1.0.1"
+__author__ = "awesomehet (forked by raianah)"
+__version__ = "1.0.2"
 __license__ = "MIT"
 
 from disnake_together.together import DisnakeTogether
