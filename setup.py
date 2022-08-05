@@ -1,32 +1,34 @@
 from setuptools import setup, find_packages
 
 classifiers = [
-    'Development Status :: 5 - Production/Stable',
-    'Intended Audience :: Developers',
-    'Operating System :: OS Independent',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
-    'Natural Language :: English',
-    'Topic :: Internet',
-    'Topic :: Software Development :: Libraries',
-    'Topic :: Software Development :: Libraries :: Python Modules',
-    'Topic :: Utilities',
-    'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3'
+        'Development Status :: 5 - Production/Stable',
+        'License :: OSI Approved :: MIT License',
+        'Intended Audience :: Developers',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Topic :: Internet',
+        'Topic :: Software Development :: Libraries',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Utilities',
 ]
 
 setup(
     name='disnake_together',
-    version='1.0.1',
+    version='1.2.6',
     description="A 3rd party library to use discord's VC Party Games feature with disnake",
     long_description="A 3rd party library to use discord's VC Party Games feature i.e YouTube together, "
                      "Betrayal.io, Fishington.io, Chess in the park, Poker night",
-    url='https://github.com/awesomehet2124/disnake_together',
-    author='Het Naik',
-    author_email='awesomehet@gmail.com',
+    url='https://github.com/raianah/disnake_together',
+    author='raianah',
+    author_email='raianah.twilight@gmail.com',
     license='MIT',
     classifiers=classifiers,
     keywords=['disnake_together', 'disnake', 'disnake-vc-interactions'],
     packages=find_packages(),
-    install_requires=['aiohttp']
+    install_requires=['aiohttp>=3.7.2']
+    python_requires='>=3.6.0
 )
